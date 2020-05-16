@@ -106,3 +106,40 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 400px) {
+  .testimonial {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 1fr);
+    margin: auto;
+    /* background-size: cover; */
+  }
+
+  .testimonial__quote-wrapper {
+    grid-row: 2;
+    grid-column: col 2 / span 3;
+    margin-top: auto;
+    text-align: center;
+    position: relative;
+    padding: 2rem 3rem 2rem 0;
+  }
+
+  .testimonial__quote {
+    width: 100%;
+  }
+
+  .testimonial__avatar-wrapper {
+    min-width: 100vw;
+    height: 380px;
+  }
+
+  .testimonial__avatar {
+    width: 100%;
+  }
+
+  .togglers {
+    position: absolute;
+    bottom: 36%;
+    right: 60%;
+  }
+}
