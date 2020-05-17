@@ -118,7 +118,7 @@ body {
   .testimonial__quote-wrapper {
     grid-row: 2;
     grid-column: col 2 / span 3;
-    margin-top: auto;
+    margin-top: -7.5rem;
     text-align: center;
     position: relative;
     padding: 2rem 3rem 2rem 0;
@@ -140,6 +140,6 @@ body {
   .togglers {
     position: absolute;
     bottom: 36%;
-    right: 60%;
+    /* right: 60%; */
   }
 }
